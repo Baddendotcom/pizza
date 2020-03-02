@@ -1,0 +1,261 @@
+/*header*/
+#nav{
+    padding: 0;
+    margin:0;
+    height:200px;
+    background-color:sandybrown;
+}
+#logo{
+    background-image: url("../images/logopizza.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    width:300px;
+    height:200px;
+    display: inline-block;
+    margin-left:15%;
+    opacity:0.8;
+}
+#nav li {
+    display:inline;
+    list-style:none;
+}
+.button1 {
+    margin: 25px 5px 5px 50px;
+    padding:40px;
+    height:60px;
+    width:60px;
+    float:left;
+}
+.button2 {
+    margin:25px 5px 5px 5px;
+    padding:40px;
+    height:60px;
+    width:60px;
+    float:left;
+
+}
+.button3 {
+    margin:25px 5px 5px 5px;
+    padding:40px;
+    height:60px;
+    width:60px;
+    float:left;
+}
+/*
+.header {
+    opacity:0.85;
+    background-color:whitesmoke;
+}*/
+
+ /*footer*/
+
+ .footer {
+     background-color: sandybrown;
+     padding:0px;
+     margin:0px;
+
+ }
+ body {
+     font-family:"Roboto Light";
+     margin:0px;
+ }
+ main {
+     background-color: sandybrown;
+     height:1840px;
+     width:100%;
+ }
+ /*accueil*/
+
+/*section accroche*/
+
+.background2 {
+    background-image: url("../images/finalfeu.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    border:10px solid black;
+    border-radius:50% 50% 0 0;
+    width:50%;
+    height:350px;
+    margin:auto;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.boxtier1 {
+     margin:auto;
+     padding-top:20px;
+     padding-bottom:10px;
+     height:450px;
+     width:100%;
+ }
+
+.background1{
+     background-image:url("../images/bricks2.jpg");
+     background-repeat:no-repeat;
+     opacity:0.85;
+     padding-top:20px;
+     padding-bottom:20px;
+    }
+.boxtier1 h2 {
+     color:#006600;
+     text-transform:uppercase;
+     font-size:40px;
+     font-weight:bold;
+     text-align:center;
+     text-shadow: 2px 2px 5px whitesmoke;
+     line-height: 0em;
+     padding-top:100px;
+ }
+.boxtier1 h3  {
+     color:#e60000;
+     text-transform:uppercase;
+     font-size:40px;
+     font-weight:bold;
+     text-align:center;
+     text-shadow: 2px 2px 5px whitesmoke;
+ }
+ .boxtier1 h4 {
+     font-size: 25px;
+     text-align: center;
+     text-shadow: 2px 2px 5px whitesmoke;
+ }
+/*section pizza*/
+.boxpizza{
+    background-image: url('../images/bricks3.png');
+    background-repeat: no-repeat;
+    width:100%;
+}
+.boxpizza h5{
+    background-color: #138613;
+    color:navajowhite;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size:24px;
+    font-style:italic;
+    text-align:center;
+    text-shadow:2px 2px 5px #e60000;
+
+}
+.carte{
+    background-color:  #ffffff;
+    background-position: center;
+    padding: 5px 5px 5px 20px;
+    margin: 5px 5px 5px 20px;
+    width: 550px;
+    height: 300px;
+    float: left;
+}
+.prix{
+    position: absolute;
+    background-color: crimson;
+    color: blanchedalmond;
+    width: 110px;
+    height: 30px;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 5px;
+    left: -110px;
+    text-align: center;
+    font-family: "Lobster", serif;
+    font-size: x-large;
+}
+.carte p{
+    position: relative;
+    top: 20px;
+    padding: 5px;
+    margin: 10px 5px 5px 300px;
+}
+.p1{
+    position: absolute;
+    left: -50px;
+    top: 20px;
+    padding: 5px;
+    margin: 10px 5px 5px 300px;
+    font-size: 30px;
+    color:  #138613;
+    font-weight: bold;
+}
+
+.p2{
+    position: relative;
+    top: 20px;
+    padding: 5px;
+    margin: 10px 5px 5px 300px;
+    color:  #138613;
+    font-size: 20px;
+}
+
+.p3{
+    position: relative;
+    top: 20px;
+    padding: 5px;
+    margin: 10px 5px 5px 300px;
+    color:  #138613;
+    font-size: 20px;
+}
+
+
+.img1{
+    position: absolute;
+    margin: 5px;
+    padding: 30px 5px 5px;
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.img1:hover{
+    transform:translatey(-10px);
+    box-shadow: 0 15px 35px  #e60000;
+}
+
+.prix:hover{
+    transform:translatey(-10px);
+    box-shadow: 0 15px 35px  #006600;
+}
+
+.img2{
+    padding: 0px 5px 10px 20px;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    margin-top: -50px;
+    float: left;
+}
+
+.img3{
+    padding: 10px 5px 5px;
+    width: 40px;
+    height: 40px;
+    margin-top: -60px;
+    float: left;
+    margin-left: 100px;
+}
+
+/*
+.commander{
+    background-color: #ffff99 ;
+    color:  #138613;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid red;
+}
+
+.commander:hover{
+    transform:translatey(-10px);
+    box-shadow: 0 15px 35px  #2828c2;
+}
+*/
+
+ /*pizza*/ 
+
+/*.pizza {
+
+     background-color: blue;
+ }*/
+/*contact*/
